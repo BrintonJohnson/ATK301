@@ -1,0 +1,57 @@
+p {
+  color: #FF00FF;
+}
+
+#specialid {
+  color: #FFFF00;
+  background-color: #FF0000;
+}
+
+#specialid2 {
+  color: #00FF00;
+  background-color: #0000FF;
+}
+
+.specialh3 {
+  color: #0000FF;
+}
+
+#headerid {
+  background-color: #FF00FF;
+}
+
+#header2id {
+  background-color: #00FF00;
+}
+
+#textid {
+  background-color: #FFFF00;
+}
+
+#navid {
+  background-color: #FF8000;
+}
+
+.specialp {
+  color: #000000;
+}
+
+a {
+ color: #FF0000;
+}
+
+a:link {
+  color:#FF0000;
+}
+
+a:visited {
+ color: #00FF00;
+}
+
+a:hover {
+ color: #FFFF00;
+}
+
+#spanstyle {
+  color: #0000FF;
+}
