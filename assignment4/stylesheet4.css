@@ -16,7 +16,13 @@
   font-weight: normal;
 }
 
-h1 {
+header {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.specialh1 {
   font-weight: normal;
 }
 
