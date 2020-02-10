@@ -1,0 +1,50 @@
+#whitetext {
+  color: #FFFFFF;
+}
+
+.blueheader {
+  background-color: #B0B0FF;
+}
+
+a:link {
+  color: #00FF00;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #FF0000;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #0000FF;
+}
+
+.spanstyle {
+  color: orange;
+}
+
+h3 {
+  background-color: #FFFF00;
+}
+
+.redptext {
+  color: #FF0000;
+}
+
+h4 {
+  color: #FFFF00;
+  background-color: #008000;
+}
+
+.greenbackground {
+  background-color: #A0FFA0;
+}
+
+h5 {
+  color: purple;
+}

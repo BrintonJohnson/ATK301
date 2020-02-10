@@ -1,0 +1,33 @@
+.alltext {
+  font-family: sans-serif;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.textjustify {
+  text-align: justify;
+}
+
+.specialheader {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.normalh1 {
+  font-weight: normal;
+}
+
+.imgborder {
+  border: 8px solid #000000;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+body {
+  background-image: url(images/redbird.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
