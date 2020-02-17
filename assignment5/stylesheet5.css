@@ -1,0 +1,85 @@
+body {
+  background-color: #E8C800;
+}
+
+p {
+  color: #B000B0;
+  font-family: Impact;
+  font-size: 20px;
+  width: 600px;
+}
+
+h1 {
+  font-family: Impact;
+  font-size: 100px;
+  border: 0px solid #000000;
+  width: 600px;
+  padding: 20px 0 480px 0;
+  margin: 0 0 10px 0;
+  text-align: center;
+
+}
+
+.directorp {
+  border: 0px solid #000000;
+  border-bottom: 4px solid #B000B0;
+  padding-bottom: 5px;
+  margin: 10px 0 0 0;
+}
+
+.directorname {
+  font-size: 30px;
+}
+
+.stars {
+  border: 0px solid #000000;
+  text-align: justify;
+  padding: 0px;
+  margin: 0px;
+}
+
+.website {
+  color: #FF00FF;
+  text-align: center;
+  font-size: 15px;
+  border-top: 4px solid #B000B0;
+  padding: 10px 0 50px 0;
+  background-image: url(RatedR.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.redtext {
+  color: #FF0000;
+}
+
+.magentatext {
+  color: #FF00FF;
+}
+
+.bottomtext .redtext {
+  font-size: 30px;
+}
+
+.bottomtext .magentatext {
+  font-size: 30px;
+}
+
+a:link {
+  color: #FF00FF;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#FF00FF;
+}
+
+a:hover {
+  color: #FF0000;
+  text-decoration: underline;
+}
+
+.toptext {
+  background-image: url(Lakeith.jpg);
+  background-repeat: no-repeat;
+}
