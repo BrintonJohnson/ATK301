@@ -50,6 +50,12 @@ h1 {
 main {
   border: 0px solid black;
   margin-left: 24px;
+  display: grid;
+}
+
+.pagelayout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 h2 {
@@ -71,6 +77,34 @@ main p {
   border: 0px solid black;
   font-size: 18px;
   text-align: justify;
+}
+
+.pageh3 {
+  grid-column: span 3;
+  border: 0px solid green;
+}
+
+.pagep {
+  grid-column: span 2;
+  border: 0px solid red;
+}
+
+.singleimg {
+  grid-column: span 1;
+  border: 0px solid blue;
+}
+
+.singleimg a img {
+  width: 250px;
+  float: right;
+}
+
+.singleimg a img:hover {
+  transform: scale(1.1,1.1);
+}
+
+.specialp {
+  margin-bottom: 100px;
 }
 
 .gallery {
@@ -96,7 +130,8 @@ main p {
 }
 
 .video {
-  float:right;
+  border: 0px solid red;
+  float: right;
   margin: 10px 0 0 30px;
 }
 
@@ -108,13 +143,13 @@ nav {
 
 .profile {
   border: 0px solid black;
-  transform: rotate(90deg);
   margin: 40px auto 100px;
   padding: 0;
 }
 
 .dropshadow {
   box-shadow: 5px 5px 10px #000000;
+  margin-left: 20px;
 }
 
 nav ul {
