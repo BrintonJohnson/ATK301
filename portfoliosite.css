@@ -79,6 +79,17 @@ main p {
   text-align: justify;
 }
 
+.bluetext {
+  color: #0077BC;
+  font-weight: bold;
+}
+
+#homeimg {
+  width: 400px;
+  margin: 40px auto;
+  opacity: 0.5;
+}
+
 .pageh3 {
   grid-column: span 3;
   border: 0px solid green;
@@ -113,7 +124,7 @@ main p {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  margin: 20px 20px 40px;
+  margin: 20px 0px 40px;
 }
 
 .gallery a {
@@ -129,10 +140,19 @@ main p {
   transform: scale(1.1,1.1);
 }
 
+.gamegraphicsgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .video {
   border: 0px solid red;
   float: right;
   margin: 10px 0 0 30px;
+}
+
+#videomargin {
+  margin-bottom: 180px;
 }
 
 nav {
